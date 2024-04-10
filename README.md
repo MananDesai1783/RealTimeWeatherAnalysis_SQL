@@ -18,25 +18,25 @@ Implement mechanisms to periodically fetch new data from the weather data API an
 
 A. Locations Table Columns: 
 
-location_id (Primary Key): Unique identifier for each location.
+● location_id (Primary Key): Unique identifier for each location.
 
-location_name: Name of the location.
+● location_name: Name of the location.
 
-latitude: Latitude coordinate of the location.
+● latitude: Latitude coordinate of the location.
 
-longitude: Longitude coordinate of the location.
+● longitude: Longitude coordinate of the location.
 
 B. Weather_Data Table Columns: 
 
-data_id (Primary Key): Unique identifier for each weather data entry.
+● data_id (Primary Key): Unique identifier for each weather data entry.
 
-location_id (Foreign Key): Reference to the location the data belongs to.
+● location_id (Foreign Key): Reference to the location the data belongs to.
 
-timestamp: Timestamp of the weather data entry.
+● timestamp: Timestamp of the weather data entry.
 
-temperature: Temperature recorded at the location.
+● temperature: Temperature recorded at the location.
 
-humidity: Humidity level recorded at the location.
+● humidity: Humidity level recorded at the location.
 
 ● precipitation: Precipitation amount recorded at the location.
 
