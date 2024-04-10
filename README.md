@@ -8,7 +8,7 @@ You are tasked with designing a real-time weather monitoring and analysis system
 1. Data Collection: 
 Utilize a weather data API (e.g., OpenWeatherMap) to obtain real-time weather information for various locations. Store weather data efficiently in the Weather_Data table, ensuring data integrity and consistency.
 
-2.Data Analysis: 
+2. Data Analysis: 
 Develop SQL queries to display real-time weather conditions for different locations. Calculate trends and patterns in weather data over time (e.g., hourly temperature changes, monthly precipitation trends). Integrate weather data with forecasting models to visualize potential future weather conditions. Utilizes advanced SQL features such as joins, window functions, subqueries, and common table expressions (CTEs) for complex analysis tasks. Implement features to calculate and display weather metrics such as average temperature, total precipitation, and highest wind speed for each location.
 
 3. Data Maintenance: 
